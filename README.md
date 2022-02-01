@@ -59,6 +59,18 @@ Mode                 LastWriteTime         Length Name
 d-----        XX/XX/20XX  XX:XX PM                resized
 ```
 
+## SPEEEEEEEDD!! ⚡
+It's pretty fast.
+
+Extensive benchmarking averages around 90-100 images/second.
+
+<p align="center">
+	<img src="https://i.imgur.com/XRoqEBs.png." data-canonical-src="https://i.imgur.com/XRoqEBs.png" width="600" />
+</p>
+
+`42042 ims / 426356 ms * (1000 ms / s) = appx 98.6 imgs / s` 
+Do note that performance will vary depending on sizes of the images. For this benchmark, 42k 500px x 500px were reduced to 100px x 100px images. 
+
 ## Technical Description
 
 `img-resize.exe` is written in [Rust](https://www.rust-lang.org/) and can be built from source using the following steps (assuming [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) is installed and configured).
